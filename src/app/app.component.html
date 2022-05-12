@@ -1,0 +1,16 @@
+<div>
+  <h2>Add new name</h2>
+  <form>
+    <input type="text" name="nameAddInput" [(ngModel)]="nameAddInput">
+    <button (click)="addName()">Add Name</button>
+  </form>
+  <p *ngIf="nameAddMessage">{{nameAddMessage}}</p>
+</div>
+<div>
+  <h2>Check name exists</h2>
+  <form>
+    <input type="text" name="nameQueryInput" [(ngModel)]="nameQueryInput">
+    <button (click)="queryName()">Query Name</button>
+  </form>
+  <p *ngIf="nameQueryMessage">{{nameQueryMessage}}</p>
+</div>
