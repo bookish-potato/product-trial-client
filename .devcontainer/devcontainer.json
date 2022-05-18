@@ -44,7 +44,7 @@
 		"codespaces": {
 			"repositories": {
 				"bookish-potato/product-trial-server": {
-					"permissions": {"contents": "read"}
+					"permissions": {"contents": "write"}
 				}
 			}
 		}

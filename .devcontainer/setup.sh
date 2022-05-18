@@ -1,1 +1,1 @@
-git clone git@github.com:bookish-potato/product-trial-server.git /workspaces
+git clone https://github.com/bookish-potato/product-trial-server.git /workspaces/product-trial-server
